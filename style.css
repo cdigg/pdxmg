@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+  font-size: 3em;
+  padding-top: 1em;
+  padding-bottom: .5em;
+  font-weight: bold;
+}
+
+.content {
+    width: 50%;
+    margin: auto;
+}
+
+.game-section {
+    padding-top: .5em;
+}
+
+.game-section .game-icon {
+    display: block;
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.game-section .game-icon img {
+    width: 200px;
+    height: 200px;
+}
+
+.game-section .game-content {
+    display: block;
+    padding-left: 20px;
+}
+
+.game-section .game-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
