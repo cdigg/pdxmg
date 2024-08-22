@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
 }
 
 .header {
@@ -20,8 +21,6 @@ body {
 }
 
 .game-section .game-icon {
-    display: block;
-    float: left;
     width: 200px;
     height: 200px;
 }
@@ -38,6 +37,6 @@ body {
 
 .game-section .game-title {
     font-weight: bold;
-    font-size: 1.2em;
-    margin-bottom: 1em;
+    font-size: 1.4em;
+    margin-bottom: .5em;
 }
