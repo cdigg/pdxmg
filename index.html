@@ -1,45 +1,52 @@
-<html>
-	<head>
-		<head>
-			<link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
-			<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-			<link rel="stylesheet" href="style.css">
-			<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-		  </head>
-		<title>PDX MegaGames</title>
-	</head>
-	<body>
-		<section class="header">
-			PDX MegaGames
-		</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - MegaGame Events</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="PDXMegaGames Logo" class="logo">
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="what-is-a-megagame.html">What is a MegaGame?</a></li>
+                <li><a href="games.html">Our Games</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
 
-		<div class="content">
+    <main>
+        <section id="home">
+            <h1 class="centered">Welcome to PDX MegaGames</h1>
+            
+            This site is changed once in a while for major updates - the discord is where most activity and discussion is.<br />
+            <div class="centered" style="margin-top:10px">
+                <button  class="learn-more" onclick="location.href='https://discord.gg/ZPvpVEUrPd';">Join PDX MegaGames Discord</button>
+            </div>
+            <p></p>
+            <div class="games-list">
+                <div class="game">
+                    <div class="centered">
+                        <img width="400" src="images/icfts_mid.jpg" alt="It Came From...The Skies!">
+                    </div>
+                    <h3>It Came From ... The Skies!</h3>
+                    <p><strong>Location:</strong> Rae Loft, Portland, OR</p>
+                    <p><strong>Date:</strong> September 28, 2024</p>
+                    <p>Fifty players. Six hours. Join us for a geopolitical near-future extraterrestrial first-contact megagame. Part board game, part role-playing game, part improv. 
+                        Step into the role of a nation's Head of State, Foreign Minister, Chief Scientist, or Minister of Defense, or join the Extraterrestrial faction to achieve your 
+                        goals and craft an unforgettable narrative of global emergencies and strategic gameplay.</p>
+                    <button class="learn-more" onclick="location.href='https://www.tickettailor.com/events/portlandmegagames/1333996';">More Info / Tickets</button>
+                </div>
+            </div>
+        </section>
+    </main>
 
-			Join the PDX Megagames Discord - <a href="https://discord.gg/ZPvpVEUrPd">https://discord.gg/ZPvpVEUrPd</a><br />
-			This site is changed once in a while for major updates (new game announce, game was played) - the discord is where stuff is actually happening.
-
-			<h4> --- Upcoming Events --- </h4>
-			<div class="game-section">
-				<div class="game-content">
-					<div class="game-title">It Came From ... The Skies!!! - Sep 28, 2024</div>
-					<div class="game-description">
-						Fifty players. Six hours. Join us for a geopolitical near-future extraterrestrial first-contact megagame. Part board game, part role-playing game, part improv. 
-
-Step into the role of a nation's Head of State, Foreign Minister, Chief Scientist, or Minister of Defense, or join the Extraterrestrial faction to achieve your goals and craft an unforgettable narrative of global emergencies and strategic gameplay.
-					</div>
-					<a href="https://www.tickettailor.com/events/portlandmegagames/1333996">More Info / Tickets</a>
-				</div>
-			</div>
-			<h4>--- Past Events ---</h4>
-			<div class="game-section">
-				<div class="game-content">
-					<div class="game-title">Den of Wolves - Jan 20, 2024</div>
-					<div class="game-description">
-						The inaugural run of Den of Wolves by PDX MegaGames took place on Jan 20th, 2024 at the Hilton Vancouver.
-					</div>
-					<a href="games/01202024_den_of_wolves.html">See More</a>
-				</div>
-			</div>
-		</div>
-	</body>
+    <footer>
+        <p>&copy; 2024 PDX MegaGames. All rights reserved.</p>
+    </footer>
+</body>
 </html>
