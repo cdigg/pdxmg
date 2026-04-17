@@ -19,6 +19,9 @@ header {
 .logo {
     width: 100px;
 }
+a {
+    color:white;
+}
 
 nav ul.menu {
     list-style-type: none;
