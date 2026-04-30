@@ -29,105 +29,47 @@
                 <button  class="learn-more" onclick="location.href='https://discord.gg/ZPvpVEUrPd';">Join PDX MegaGames Discord</button>
             </div>
             <p></p>
-            <div class="games-list">
-                <h3>Next Game</h3>
-               
-                <div class="game">
-                    <div class="centered">
-                        <img width="400" src="images/gaw_title.png" alt="Gods of the Ancient World">
-                    </div>
-                    <h3>Gods of the Ancient World</h3>
-                    <p><strong>Location:</strong> Vault 31, Vancouver, WA</p>
-                    <p><strong>Date:</strong> May 9, 2026</p>
-                    <p>Whether you're leading troops across the Mediterranean, building a thriving empire, or shaping the destiny of mortals as a mighty god, Gods of the Ancient World offers an immersive experience like no other.
-
-                        <p>
-                        Set during the height of the Roman and Greek civilizations, Gods of the Ancient World offers layers of strategy, negotiation, and world-building. Some players will manage resources, build industry, and manufacture fleets to sell artisanal goods to distant lands. Others will move troops throughout the Mediterranean and conquer regions for the glory of their faction. Still others will take on the roles of political leaders, developing laws for the betterment of their people whilst vying for their own political standings.
-                        <p>
-                        Meanwhile, another group of players will assume the mantles of the ancient gods – Zeus, Poseidon, Hera, etc. – seeking the prayers of mortals to gain power to perform miracles and win influence over their rivals.
-                        <p>
-                        This game is perfect for players who enjoy complex strategy, role-playing, and the chance to immerse themselves in an ancient world where every decision has the potential to change history.
-                        <p>
-                            
-                        <div class="centered" style="margin-top:10px">
-                            <button  class="learn-more" onclick="location.href='https://buytickets.at/portlandmegagames/2171011';">Get Tickets</button>
-                        </div>
-                </div>
-
-                <div class="game">
-                    <div class="centered">
-                        <img width="400" src="images/dow_mid.jpg" alt="Den of Wolves: Infinite Domain">
-                    </div>
-                    <h3>Den of Wolves: Infinite Domain</h3>
-                    <p><strong>Location:</strong> Seattle University, Seattle, WA </p>
-                    <p><strong>Date:</strong> June 27</p>
-                            It is the 27th Century. After a catastrophic attack on humanity, one battleship and a few civilian vessels must fight to survive, govern themselves and maintain order as they flee from their 
-                            pursuers. Den of Wolves: Infinite Domain is a game about difficult political, military and survival choices in a long-term crisis scenario. Players will take on the roles of starship captains, 
-                            officers, and engineers, as well as politicians and military personnel. The game has a focus on managing resources, as well as various units and assets – however, talking and negotiating with other 
-                            players will be crucial in order to achieve success. 
-                            <p></p>
-                            Infinite Domain is an expanded version of the classic Den of Wolves. Includes additional ships and roles, a new faction, as well as some streamlined rules and a graphical overhaul. 
-                            Previous experience with Den of Wolves is not required to play.
-
-                            <p/>
-                            NOTE: This game is at the Seattle University, not in Portland.
-
-                            
-                        <div class="centered" style="margin-top:10px">
-                            <button  class="learn-more" onclick="location.href='https://buytickets.at/portlandmegagames/2171019'">Get Tickets for this Seattle Game</button>
-                        </div>
-                </div>
-
-                <div class="game">
-                    <div class="centered">
-                        <img width="400" src="images/nebula.jpg" alt="[REDACTED] Sci-Fi Space Megagame">
-                    </div>
-                    <h3>[REDACTED] Sci-Fi Space Megagame</h3>
-                    <p><strong>Location:</strong> Vault 31, Vancouver, WA</p>
-                    <p><strong>Date:</strong> July 12</p>
-                    <p>
-                        A distress signal echose through the vastness of space....
-                    </p>
-                    <p>
-                        Details will be communicated on a need to know basis.
-                    </p>
-                         <div class="centered" style="margin-top:10px">
-                            <button  class="learn-more" onclick="location.href=''">Ticket Link Coming Soon</button>
-                        </div>
-                </div>
-
-                
-                <div class="game">
-                    <div class="centered">
-                        <img width="400" src="images/courting-trouble-main.png" alt="Courting Trouble">
-                    </div>
-                    <h3>Courting Trouble</h3>
-                    <p><strong>Location:</strong> Direbrook Dark Fantasy Convention</p>
-                    <p><strong>Date:</strong>Oct 30 - Nov 1</p>
-                    <p>
-                        
-                    </p>
-                    <p>
-                        Players are part of 5-7 person Courts, of the Crownwardens, Dragonkin, Fae, Werewolves, Infernals, or Vampires in this romantasy trope inspired megagame. Court and marry your Desire, cause trouble 
-                        for your Rival, and explore the adventurous storylines of the 6 courts. 
-                    </p>
-                    <p>
-                        This game is inspired by young adult romantasy, Bridgerton, A Court of Thorns and Roses, and other silly romance adventures. Mechanically you will be given a role, both you and your faction will have
-                        an 'Honor Level' that can be impacted by your actions. There are adventure storylines to follow, Desires to pursue, and Rivals to deride. This has some mechanics, but is a very RP-heavy game. Costuming 
-                        is encouraged.
-                    </p>
-                    <p>
-                        This will be our first year at the Direbrook Dark Fantasy Convention, a Portland-local 18+ event. <a href="https://www.direbrook.com/">https://www.direbrook.com/</a>
-                        
-                    </p>
-                    <p>
-                        You must have a Direbrook badge to play this game. There is no additional cost beyond the Direbrook badge.<br />
-                    </p>
-                        <div class="centered" style="margin-top:10px">
-                            <button  class="learn-more" onclick="location.href=''">Ticket Link Coming Soon</button>
-                        </div>
-                </div>
+            <div class="games-list" id="upcoming-games">
+                <h3>Upcoming Games</h3>
             </div>
+            <script>
+            (async () => {
+                const container = document.getElementById('upcoming-games');
+                const escapeAttr = (s) => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/'/g, '&#39;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+                try {
+                    const res = await fetch('upcoming-games.json', { cache: 'no-cache' });
+                    if (!res.ok) throw new Error('HTTP ' + res.status);
+                    const games = await res.json();
+                    for (const game of games) {
+                        if (game.show === false) continue;
+                        const card = document.createElement('div');
+                        card.className = 'game';
+                        let html = `
+                    <div class="centered">
+                        <img width="400" src="${escapeAttr(game.image)}" alt="${escapeAttr(game.imageAlt || game.title)}">
+                    </div>
+                    <h3>${escapeAttr(game.title)}</h3>
+                    <p><strong>Location:</strong> ${escapeAttr(game.location)}</p>
+                    <p><strong>Date:</strong> ${escapeAttr(game.date)}</p>
+                    ${game.description || ''}`;
+                        if (game.ticketUrl) {
+                            const label = escapeAttr(game.ticketLabel || 'Get Tickets');
+                            html += `
+                    <div class="centered" style="margin-top:10px">
+                        <button class="learn-more" onclick="location.href='${escapeAttr(game.ticketUrl)}'">${label}</button>
+                    </div>`;
+                        }
+                        card.innerHTML = html;
+                        container.appendChild(card);
+                    }
+                } catch (err) {
+                    console.error('Failed to load upcoming games:', err);
+                    const msg = document.createElement('p');
+                    msg.textContent = 'Could not load upcoming games. Please check the Discord for the latest schedule.';
+                    container.appendChild(msg);
+                }
+            })();
+            </script>
         </section>
     </main>
 
