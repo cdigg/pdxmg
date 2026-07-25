@@ -1,17 +1,23 @@
 [
+{
+    "show": true,
+    "title": "Event Horizon",
+    "image": "images/event_horizon_banner.png",
+    "imageAlt": "Event Horizon",
+    "description": "<p>In this psychological horror sci-fi megagame set in 2049, two years after the events in the titular film, you are the members of the multi-national salvage/rescue/exploration fleet that is sent out when the Event Horizon mysteriously appears once again, complete and whole, broadcasting its signal as it did two years ago.<p>Will your crew fare better than the last?</p>",
+    "pastGames": [
+      "July 12, 2026 - Vault 31, Vancouver, WA"
+    ]
+  },
    {
     "show": true,
     "title": "Den of Wolves",
     "image": "images/den-of-wolves.png",
     "imageAlt": "Den of Wolves: Infinite Domain",
     "description": "<p>It is the 27th Century and human society has spread to multiple planets. Despite political differences and internal problems, most of humanity is at peace. The various factions, spread across multiple star systems, are governed by the Interstellar Council.</p><p>This all changed eighteen days ago when the military of Wolf-1061, an insular and secretive planet-state, launched a massive, catastrophic attack against the other inhabited planets. Through a mixture of cyber-attacks, espionage and sabotage, they managed to disable the vast majority of the Interstellar Council's military, and went on to devastate their targets on the various planets.</p><p>Through the chaos, the battleship ICSS Aegis was able to survive the attack and escape to interstellar space. It soon found itself protecting and aiding numerous civilian vessels attempting to escape the Wolf forces. The \"Survivor Fleet\", as it has come to be known, must now provide critical resources for its survivors and vessels, whilst simultaneously trying to maintain government and social order, and mount an effective defence against pursuing Wolf forces.</p><p>Den of Wolves is a game about difficult political, military and survival choices in a long-term crisis scenario. Players will take on the roles of starship captains, officers, and engineers, as well as politicians and military personnel. The game has a focus on managing resources, as well as various units and assets – however, talking and negotiating with other players will be crucial in order to achieve success. The game also seeks to represent political and military systems, and their decisions, and so players should expect some political simulation.</p>",
-    "nextGame": {
-      "date": "June 27, 2026",
-      "location": "University of Seattle, Seattle, WA",
-      "ticketUrl": "https://buytickets.at/portlandmegagames/2171019"
-    },
     "pastGames": [
-      "Mar 21, 2026 - GameStorm Game Convention, Portland, OR",
+      "July 30, 2026 - GenCon, Indianapolis, IN",
+      "March 21, 2026 - GameStorm Game Convention, Portland, OR",
       "October 19, 2025 - Vault 31, Vancouver, WA",
       "July 31, 2025 - GenCon, Indianapolis, IN",
       "March 22, 2025 - GameStorm Game Convention, Portland, OR",
@@ -46,6 +52,7 @@
     "imageAlt": "Deephaven",
     "description": "<p>Come to Deephaven! A narrative megagame about overly-ambitious dwarves building a new city fortress. Players will delve deep into the mountain to discover unique resources, forge legendary weapons, develop thriving trade and culture, and fight back against the many dangers they uncover!</p><p>All Dwarves are welcome at Deephaven! From the proud Mountain clans and industrious Hill clans, to the mysterious clans of the Deep. Yes, even Gully Dwarves are allowed! MINERS delve deep to find arcane metals! SHAPERS forge legendary weapons, armor, and new inventions. ARCHITECTS build awe-inspiring structures and massive fortifications. MERCHANTS handle foreign trade, FARMERS feed us, and BREWERS keep us, uh, well-hydrated! The CARTOGRAPHERS maintain the Grand Map and the INKBEARDS chronicle discoveries, announce oaths, grudges, and important events. The GUARDIANS keep the peace, and the LEGION leads us to war! Come to Deephaven! Build a new home for all Dwarves!</p>",
     "pastGames": [
+      "July 31, 2026 - GenCon, Indianapolis, IN",
       "January 18, 2026 - Rae Loft, Portland, OR"
     ]
   },
