@@ -1,13 +1,33 @@
 [
   {
     "show": true,
-    "title": "Touched by Darkness",
-    "image": "images/tbd_mid.png",
-    "imageAlt": "Touched by Darkness",
-    "location": "Vault 31, Vancouver, WA",
-    "date": "Oct 10",
-    "description": "The Eclipse has risen. Darkness has swallowed the Empire and is coming for your outpost next! You and your teammates must gather resources, light the arcane beacons, and attempt to survive. But beware! The Shadows that attack your outpost are not the only threat. Darkness may have invaded the mind of a teammate, and you can no longer trust them.<p>Can you hold this last bastion of humanity together and banish the Eclipse?</p><p></p><p>In this fantasy-themed Den of Wolves inspired MegaGame you will be members of various locations and factions with specific roles working to reach your goals. Is it to push back the Dark? Possibly...possibly not. Come play and find out.</p><p>Vault 31 will be hosting an after-game event to discuss the game and learn more about what hidden storylines everyone else was pursuing.</p>",
-    "ticketUrl": "https://www.tickettailor.com/events/portlandmegagames/2348153",
-    "ticketLabel": "More Info / Get Tickets"
+    "title": "Gods of the Ancient World - January 2027, exact date TBD",
+    "image": "images/gaw_title.png",
+    "imageAlt": "Gods of the Ancient World",
+    "location": "Rae Loft, Portland, OR",
+    "date": "TBD",
+    "description": "<p>Whether you're leading troops across the Mediterranean, building a thriving empire, or shaping the destiny of mortals as a mighty god, Gods of the Ancient World offers an immersive experience like no other.</p><p>Set during the height of the Roman and Greek civilizations, Gods of the Ancient World offers layers of strategy, negotiation, and world-building. Some players will manage resources, build industry, and manufacture fleets to sell artisanal goods to distant lands. Others will move troops throughout the Mediterranean and conquer regions for the glory of their faction. Still others will take on the roles of political leaders, developing laws for the betterment of their people whilst vying for their own political standings.</p><p>Meanwhile, another group of players will assume the mantles of the ancient gods – Zeus, Poseidon, Hera, etc. – seeking the prayers of mortals to gain power to perform miracles and win influence over their rivals.</p><p>This game is perfect for players who enjoy complex strategy, role-playing, and the chance to immerse themselves in an ancient world where every decision has the potential to change history.</p><p><strong>Tickets will be on sale as soon as the date is locked in.</strong></p>"
+  },
+  {
+    "show": true,
+    "title": "Den of Wolves: Infinite Domain, Date TBD (during GameStorm 2027)",
+    "image": "images/dow_mid.jpg",
+    "imageAlt": "Den of Wolves: Infinite Domain",
+    "location": "GameStorm 2027",
+    "date": "TBD",
+    "description": "<p>It is the 27th Century. After a catastrophic attack on humanity, one battleship and a few civilian vessels must fight to survive, govern themselves and maintain order as they flee from their pursuers. Den of Wolves: Infinite Domain is a game about difficult political, military and survival choices in a long-term crisis scenario. Players will take on the roles of starship captains, officers, and engineers, as well as politicians and military personnel. The game has a focus on managing resources, as well as various units and assets – however, talking and negotiating with other players will be crucial in order to achieve success.</p><p>Infinite Domain is an expanded version of the classic Den of Wolves. Includes additional ships and roles, a new faction, as well as some streamlined rules and a graphical overhaul. Previous experience with Den of Wolves is not required to play.</p><p>NOTE: You must have a GameStorm badge to play this game. There is no additional cost beyond the GameStorm badge.</p>",
+    "ticketUrl": "https://tabletop.events/conventions/gamestorm-27",
+    "ticketLabel": "Go to GameStorm Website"
+  },
+  {
+    "show": true,
+    "title": "Deephaven - Date TBD (during GameStorm 2027)",
+    "image": "images/deep-title.png",
+    "imageAlt": "Deephaven",
+    "location": "GameStorm 2027",
+    "date": "TBD",
+    "description": "<p>Come to Deephaven! A narrative megagame about overly-ambitious dwarves building a new city fortress. Players will delve deep into the mountain to discover unique resources, forge legendary weapons, develop thriving trade and culture, and fight back against the many dangers they uncover!</p><p>All Dwarves are welcome at Deephaven! From the proud Mountain clans and industrious Hill clans, to the mysterious clans of the Deep. Yes, even Gully Dwarves are allowed! MINERS delve deep to find arcane metals! SHAPERS forge legendary weapons, armor, and new inventions. ARCHITECTS build awe-inspiring structures and massive fortifications. MERCHANTS handle foreign trade, FARMERS feed us, and BREWERS keep us, uh, well-hydrated! The CARTOGRAPHERS maintain the Grand Map and the INKBEARDS chronicle discoveries, announce oaths, grudges, and important events. The GUARDIANS keep the peace, and the LEGION leads us to war! Come to Deephaven! Build a new home for all Dwarves!</p><p>We will be teaching the game at the beginning of the day and you won't need to bring anything.</p><p>Costumes are encouraged but are by no means necessary.</p><p>NOTE: You must have a GameStorm badge to play this game. There is no additional cost beyond the GameStorm badge.</p>",
+    "ticketUrl": "https://tabletop.events/conventions/gamestorm-27",
+    "ticketLabel": "Go to GameStorm Website"
   }
 ]
